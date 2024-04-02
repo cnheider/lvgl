@@ -49,7 +49,7 @@ Full keyboard support needs to be enabled separately.
 
     #define LV_LIBINPUT_XKB            1
     #define LV_LIBINPUT_XKB_KEY_MAP    { .rules = NULL, .model = "pc101", .layout = "us", .variant = NULL, .options = NULL }
-    
+
 To find the right key map values, you may use the ``setxkbmap -query`` command.
 
 Usage

@@ -167,8 +167,8 @@ static inline lv_result_t _lv_draw_sw_rgb565_swap_helium(void * buf, uint32_t bu
     return LV_RESULT_OK;
 }
 
-static inline lv_result_t _lv_draw_sw_image_helium( 
-                                        bool is_transform, 
+static inline lv_result_t _lv_draw_sw_image_helium(
+                                        bool is_transform,
                                         lv_color_format_t src_cf,
                                         const uint8_t *src_buf,
                                         const lv_area_t * coords,
@@ -241,17 +241,17 @@ static inline lv_result_t _lv_draw_sw_image_helium(
 //            des_size.iWidth = (int16_t)des_w;
 //            des_size.iHeight = (int16_t)des_h;
 //        } while(0);
-//        
+//
 //        arm_2d_size_t copy_size = {
 //            .iWidth = MIN(des_size.iWidth, src_size.iWidth),
 //            .iHeight = MIN(des_size.iHeight, src_size.iHeight),
 //        };
-//        
+//
 //        int32_t des_stride = lv_draw_buf_width_to_stride(
-//                                lv_area_get_width(&layer->buf_area), 
+//                                lv_area_get_width(&layer->buf_area),
 //                                des_cf);
 //        uint8_t *des_buf_moved = (uint8_t *)lv_draw_layer_go_to_xy(
-//                                            layer, 
+//                                            layer,
 //                                            blend_area.x1 - layer->buf_area.x1,
 //                                            blend_area.y1 - layer->buf_area.y1);
         uint8_t *des_buf = (uint8_t *)lv_draw_layer_go_to_xy(layer, 0, 0);

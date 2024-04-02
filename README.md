@@ -24,7 +24,7 @@
 <a href="https://docs.lvgl.io/" title="Detailed documentation with 100+ examples">Docs</a> |
 <a href="https://forum.lvgl.io" title="Get help and help others">Forum</a> |
 <a href="https://lvgl.io/demos" title="Demos running in your browser">Demos</a> |
-<a href="https://lvgl.io/services" title="Graphics design, UI implementation and consulting">Services</a> 
+<a href="https://lvgl.io/services" title="Graphics design, UI implementation and consulting">Services</a>
 </p>
 <br>
 

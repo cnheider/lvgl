@@ -115,7 +115,7 @@ Input device events
 -  :cpp:enumerator:`LV_EVENT_CLICKED`: Called on release if not scrolled (regardless to long press)
 -  :cpp:enumerator:`LV_EVENT_RELEASED`: Called in every cases when the object has been released
 -  :cpp:enumerator:`LV_EVENT_SCROLL_BEGIN`: Scrolling begins. The event parameter is a pointer to the animation of the scroll. Can be modified
--  :cpp:enumerator:`LV_EVENT_SCROLL_THROW_BEGIN`: 
+-  :cpp:enumerator:`LV_EVENT_SCROLL_THROW_BEGIN`:
 -  :cpp:enumerator:`LV_EVENT_SCROLL_END`: Scrolling ends
 -  :cpp:enumerator:`LV_EVENT_SCROLL`: Scrolling
 -  :cpp:enumerator:`LV_EVENT_GESTURE`: A gesture is detected. Get the gesture with :cpp:expr:`lv_indev_get_gesture_dir(lv_indev_active());`

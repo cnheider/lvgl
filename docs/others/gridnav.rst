@@ -27,7 +27,7 @@ the object so that gridnav can process the arrow keys.
 
 To move the focus to the next widget of the group use
 :cpp:enumerator:`LV_KEY_NEXT` or :cpp:enumerator:`LV_KEY_PREV`.
-Optionally you can also use :cpp:func:`lv_group_focus_next` 
+Optionally you can also use :cpp:func:`lv_group_focus_next`
 or :cpp:func:`lv_group_focus_prev` or the ``TAB``
 key on keyboard as usual.
 
